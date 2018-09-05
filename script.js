@@ -5,7 +5,6 @@ let NewVid = function(movie) {
       vid.src = movie;
       vid.style.width = '100%';
       vid.style.maxWidth = '100%';
-      vid.style.height = '100vh';
       vid.autoplay = true;
       vid.loop = true;
       vid.load();
