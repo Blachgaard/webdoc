@@ -7,6 +7,10 @@ section {
     width:100%;
     display:flex;
 }
+
+#stemning {
+    width: 100%;
+}
 #stemvid {
     width:100%;
 }
