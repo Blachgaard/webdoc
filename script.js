@@ -13,4 +13,4 @@ let NewVid = function(movie) {
     }
     let stemningsvideo = 'video/Stemnings_Video.mp4';
     // use the object
-    NewVid( stemningsvideo );
+    NewVid (stemningsvideo);
