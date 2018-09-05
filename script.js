@@ -12,6 +12,6 @@ let NewVid = function(movie) {
       // append to <div id="videos">
       stemvid.appendChild(vid);
     }
-    let stemningsvideo = 'video/stemningsvideo.mp4';
+    let stemningsvideo = 'video/stemnings_video.mp4';
     // use the object
     NewVid( stemningsvideo );
