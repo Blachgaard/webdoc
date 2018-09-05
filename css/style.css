@@ -29,12 +29,12 @@ section {
     height:auto;
 }
 #mus {
-    width:40px;
+    width:100%;
 }
 
 
 #pil {
-    width:20px;
+    width:40%;
     animation: bounce 2s infinite;
    
 }
