@@ -9,7 +9,7 @@ let NewVid = function(movie) {
       vid.autoplay = true;
       vid.loop = true;
       vid.load();
-      // append to <div id="videos">
+      // append to <div id="stemvid">
       stemvid.appendChild(vid);
     }
     let stemningsvideo = 'video/stemningsvideo.mp4';
