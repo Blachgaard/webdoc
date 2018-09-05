@@ -7,14 +7,8 @@ section {
     width:100%;
     display:flex;
 }
-#stemning {
-    height:100vh;
-}
 #stemvid {
-    min-width: 100%; 
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    width:100%;
 }
 #mus {
     width:40px;
