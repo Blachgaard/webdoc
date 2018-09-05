@@ -24,7 +24,11 @@ section {
     display:flex;
 }
 #stemvid {
+<<<<<<< HEAD
     width:100%;
+=======
+width: 100%;
+>>>>>>> c9e5f190fa54e51dbc85ed17e0b1d9d49ca5596f
 }
 #mus {
     width:100%;
