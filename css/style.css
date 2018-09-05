@@ -2,6 +2,22 @@
     box-sizing: border-box;
     margin:0;
 }
+
+@keyframes bounce {
+    
+    0% {
+        transform: translateY(0px);
+    }
+    
+    50% {
+        transform: translateY(10px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
+    
 section {
     height:700px;
     width:100%;
@@ -17,14 +33,19 @@ section {
 #mus {
     width:40px;
 }
+
+
 #pil {
     width:20px;
+    animation: bounce 1.5s infinite;
+   
 }
 #scroll{
     position:Sticky;
     width:40px;
     bottom:5px;
     left:95%;
+    text-align: center;
 }
 #praesentation {
     justify-content: space-around;
