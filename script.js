@@ -1,5 +1,5 @@
 // stemningsvideo
-let newvid = function(movie) {
+let NewVid = function(movie) {
       // create a <video>
       let vid = document.createElement('video');
       vid.src = movie;
@@ -13,4 +13,4 @@ let newvid = function(movie) {
     }
     let stemningsvideo = 'video/Stemnings_Video.mp4';
     // use the object
-    newvid( stemningsvideo );
+    NewVid( stemningsvideo );
