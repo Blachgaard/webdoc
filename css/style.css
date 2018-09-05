@@ -24,9 +24,7 @@ section {
     display:flex;
 }
 #stemvid {
-    width:100%;
-    max-width: 100%;
-    height:auto;
+    width:50%;
 }
 #mus {
     width:100%;

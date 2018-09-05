@@ -6,6 +6,8 @@ let NewVid = function(movie) {
       vid.autoplay = true;
       vid.loop = true;
       vid.load();
+    vid.style.width = '100%';
+   
       // append to <div id="stemvid">
       stemvid.appendChild(vid);
     }
