@@ -16,6 +16,18 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #00d7ff;
+    
+}
+
 @keyframes bounce {
     
     0% {
