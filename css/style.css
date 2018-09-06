@@ -84,12 +84,6 @@ section {
 .prae2 {
     position:relative;
 }
-.prae2 p {
-    position:absolute;
-    margin:inherit;
-    height: 100%;
-    width: 100%;
-}
 #praesentation img {
     width: 90%;
     margin:5%;
@@ -131,14 +125,12 @@ footer {
 }
 .prae2 {
     align-self: center;
-    position:relative;
     width:30%;
-
 }
         
-        .prae2 img {
-            margin: 30px;
-        }
+.prae2 img {
+    margin: 30px;
+}
 .prae3 {
     align-self: flex-end;
     width:30%;
