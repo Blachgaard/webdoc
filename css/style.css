@@ -125,15 +125,26 @@ footer {
 .prae1 {
     align-self: flex-start;
     width:30%;
+    background-color: black;
+    margin: 30px;
+    border-radius: 20px;
 }
 .prae2 {
     align-self: center;
     position:relative;
     width:30%;
+
 }
+        
+        .prae2 img {
+            margin: 30px;
+        }
 .prae3 {
     align-self: flex-end;
-    width:30%
+    width:30%;
+    background-color: black;
+    margin: 30px;
+    border-radius: 20px;
 }        
 #scroll {
     display:block;  
