@@ -10,12 +10,14 @@ body {
 h1 {
     color: #00d7ff;
     margin: 30px;
+    font-size: 35px;
 }
 
 p {
     color:#ffffff;
     font-family: 'Raleway', sans-serif;
     margin: 30px;
+    font-size: 20px;
  
 }
 
