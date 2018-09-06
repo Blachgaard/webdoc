@@ -2,9 +2,11 @@
 let NewVid = function (movie) {
     // create a <video>
     let vid = document.createElement('video');
+    vid.controls = true;
     vid.src = movie;
     vid.autoplay = true;
     vid.loop = true;
+    vid.muted = true;
     vid.load();
     vid.style.width = '100%';
 
