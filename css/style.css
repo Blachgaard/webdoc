@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
     margin:0;
+    
+}
+body {
+       background-color: #1d1d27;
 }
 
 @keyframes bounce {
@@ -22,6 +26,7 @@ section {
     height:700px;
     width:100%;
     display:flex;
+ 
 }
 #stemvid {
     width:100%;
@@ -38,7 +43,7 @@ section {
 }
 #scroll{
     position:Sticky;
-    width:40px;
+    width:4%;
     bottom:5px;
     left:95%;
     text-align: center;
@@ -73,7 +78,7 @@ footer {
 }
 
 @media screen 
-    and (min-device-width: 1200px) {
+    and (min-width: 1200px) {
 #praesentation { 
     flex-direction:row;
     height: 500px;
