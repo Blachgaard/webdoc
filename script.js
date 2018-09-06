@@ -23,7 +23,7 @@ let View = function (movie) {
     vid.src = movie;
     vid.load();
     vid.style.width= '100%';
-    
+    vid.style.zIndex= '-1';
     interview.appendChild(vid);
 }
 
