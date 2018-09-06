@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin:0;
-    font-family: 'Raleway', sans-serif;
 }
 body {
        background-color: #1d1d27;
@@ -14,6 +13,7 @@ h1 {
 
 p {
     color:#ffffff;
+    font-family: 'Raleway', sans-serif;
 }
 
 @keyframes bounce {
@@ -97,9 +97,11 @@ footer {
     margin:inherit;
     margin-top:15px;
     margin-bottom:15px;
+    height:
 }
 .prae1 {
     align-self: flex-start;
+    width:30%;
 }
 .prae2 {
     align-self: center;
