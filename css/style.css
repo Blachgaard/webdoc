@@ -83,8 +83,11 @@ section {
 }
 .prae2 {
     position:relative;
+    z-index: -1;
     
 }
+
+
 #praesentation img {
     width: 90%;
     margin:5%;
@@ -107,6 +110,20 @@ footer {
     background-color: black;
 }
 
+ .en{
+            
+            position: relative;
+        }
+        
+        .to {
+            position: absolute;
+            width: 10%;
+            margin-top: -35%;
+            margin-left: 40%;
+            
+            
+        }
+
 @media screen 
     and (min-width: 1200px) {
 #praesentation { 
@@ -125,6 +142,8 @@ footer {
     margin: 30px;
     border-radius: 20px;
 }
+        
+       
 .prae2 {
     align-self: center;
     width:30%;
@@ -143,5 +162,6 @@ footer {
 #scroll {
     display:block;  
 }       
+        
         
 }
