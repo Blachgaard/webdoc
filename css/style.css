@@ -108,11 +108,9 @@ footer {
     height: 500px;
 }
 #praesentation img {
-    width: 30%;
+    width: 100%;
     margin:inherit;
-    margin-top:15px;
-    margin-bottom:15px;
-    height:
+    
 }
 .prae1 {
     align-self: flex-start;
@@ -120,9 +118,22 @@ footer {
 }
 .prae2 {
     align-self: center;
+    position:relative;
+    width:30%;
+}
+.prae2 p {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+.prae2 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .prae3 {
     align-self: flex-end;
+    width:30%
 }        
 #scroll {
     display:block;  
