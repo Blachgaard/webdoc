@@ -42,6 +42,7 @@ section {
     bottom:5px;
     left:95%;
     text-align: center;
+    display:none;
 }
 #praesentation {
     justify-content: space-around;
@@ -92,6 +93,8 @@ footer {
 .prae3 {
     align-self: flex-end;
 }        
-        
+#scroll {
+    display:block;  
+}       
         
 }
