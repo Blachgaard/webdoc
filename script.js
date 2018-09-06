@@ -16,3 +16,16 @@ let NewVid = function (movie) {
 let stemningsvideo = 'video/stemningsvideo.mp4';
 // use the object
 NewVid(stemningsvideo);
+
+let View = function (movie) {
+    let vid = document.createElement('video');
+    vid.controls = true;
+    vid.src = movie;
+    vid.load();
+    vid.style.width= '100%';
+    
+    interview.appendChild(vid);
+}
+
+let målet = 'video/interview.mp4'
+View(målet);
