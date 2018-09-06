@@ -81,10 +81,18 @@ section {
     height: auto;
     flex-direction: column;
 }
+.prae2 {
+    position:relative;
+}
+.prae2 p {
+    position:absolute;
+    margin:inherit;
+    height: 100%;
+    width: 100%;
+}
 #praesentation img {
     width: 90%;
     margin:5%;
-    
 }
 #formaal {
     height:500px;
@@ -122,17 +130,6 @@ footer {
     align-self: center;
     position:relative;
     width:30%;
-}
-.prae2 p {
-    position:absolute;
-    margin:inherit;
-    height: 100%;
-    width: 100%;
-}
-.prae2 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 .prae3 {
     align-self: flex-end;
