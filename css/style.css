@@ -3,7 +3,7 @@
     margin:0;
 }
 body {
-       background-color: #1d1d27;
+       background-color: #0a0f25;
     
 }
 
@@ -114,7 +114,7 @@ footer {
     and (min-width: 1200px) {
 #praesentation { 
     flex-direction:row;
-    height: 500px;
+    height: 100vh;
 }
 #praesentation img {
     width: 100%;
