@@ -50,7 +50,6 @@ a:hover {
 }
     
 section {
-    height:100%;
     width:100%;
     display:flex;
  
@@ -99,16 +98,7 @@ section {
 }
 
 #maal {
-    height:100vh;
-}
-#formaal img {
-    width:100%;
-}
-#content1 {
-    height:500px;
-}
-#content1 img {
-    width:100%;
+    height:auto;
 }
 
 #interview h1 {
@@ -116,7 +106,7 @@ section {
     color: #ffffff;
     width: 27%;
     left: 55%;
-    top: 15%;
+    top: 25%;
     font-size:17px;
 }
 footer {
@@ -159,7 +149,11 @@ footer {
 }
 #interview h1 {
     font-size: 50px;
-        }
+    top:25%;
+}
+#maal {
+    height:100vh;
+}
 #scroll {
     display:block;  
 }       
