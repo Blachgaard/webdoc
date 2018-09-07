@@ -114,15 +114,6 @@ section {
         display:flex;
 
 }
-
-#interview h1 {
-    position: relative;
-    color: #ffffff;
-    width: 27%;
-    left: 55%;
-    top: 25%;
-    font-size:17px;
-}
 footer {
     background-color: black;
 }
@@ -144,12 +135,6 @@ footer {
     margin: 30px;
     border-radius: 20px;
 }
-    #optraed {
-        position: relative;
-        color: white;
-        top: 100px;
-            
-        }   
  #slidelyd {
     position: relative;
     bottom: 140px;
@@ -171,10 +156,6 @@ footer {
     
     margin: 30px;
     border-radius: 20px;
-}
-#interview h1 {
-    font-size: 50px;
-    top:300px;
 }
 #maal {
     height:100vh;
