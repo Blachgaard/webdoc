@@ -97,6 +97,15 @@ section {
     margin:5%;
     border-radius:100px;
 }
+
+#praesentationslide img {
+    width: 100%;
+    
+   
+}
+
+
+
 #maal {
     height:100vh;
 }
