@@ -144,7 +144,12 @@ footer {
     margin: 30px;
     border-radius: 20px;
 }
-       
+    #optraed {
+        position: relative;
+        color: white;
+        top: 200px;
+            
+        }   
  #slidelyd {
     position: relative;
     bottom: 140px;
