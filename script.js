@@ -35,12 +35,13 @@ View(målet);
     to.controls = true;
         to.src = 'audio/hvad_er_vaerk.mp3';
         to.currentTime = true;
-
+ 
+slidelyd.controls = true;
+slidelyd.src= 'audio/slide_lyd.mp3';
+slidelyd.currentTime = true;
        
 
-slidelyd.controls = true;
-slydelyd.src = 'audio/slide_lyd.mp3';
-slidelyd.currentTime= true;
+
 //Slide
 
 var myIndex = 0;
@@ -51,6 +52,7 @@ function carousel() {
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
+        x[i].style.zIndex ='-1';
     }
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
