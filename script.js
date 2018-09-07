@@ -27,17 +27,17 @@ let View = function (movie) {
     vid.style.zIndex= '-1';
     interview.appendChild(vid);
 }
+let målet = 'video/interview.mp4'
+View(målet);
+
+//Audio
 
     to.controls = true;
         to.src = 'audio/hvad_er_vaerk.mp3';
         to.currentTime = true;
 
         var lyd = document.getElementById("to");
-
-let målet = 'video/interview.mp4'
-View(målet);
-
-
+//Slide
 
 var myIndex = 0;
 carousel();
