@@ -93,11 +93,10 @@ section {
 
 #praesentationslide img {
     width: 100%;
-    
-   
 }
-
-
+.prae2 {
+    text-align: center;
+}
 
 #maal {
     height:100vh;
@@ -116,8 +115,9 @@ section {
     position: relative;
     color: #ffffff;
     width: 27%;
-    left: 65%;
-    top: 30%;
+    left: 55%;
+    top: 15%;
+    font-size:17px;
 }
 footer {
     background-color: black;
@@ -156,7 +156,10 @@ footer {
     background-color: black;
     margin: 30px;
     border-radius: 20px;
-}     
+}
+#interview h1 {
+    font-size: inherit;
+        }
 #scroll {
     display:block;  
 }       
