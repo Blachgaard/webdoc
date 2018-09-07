@@ -36,7 +36,11 @@ View(målet);
         to.src = 'audio/hvad_er_vaerk.mp3';
         to.currentTime = true;
 
-        var lyd = document.getElementById("to");
+       
+
+slidelyd.controls = true;
+slydelyd.src = 'audio/slide_lyd.mp3';
+slidelyd.currentTime= true;
 //Slide
 
 var myIndex = 0;
