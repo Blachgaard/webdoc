@@ -141,7 +141,12 @@ footer {
     left: 45%;
     width: 9%;
   
-}      
+}   
+    #optraed {
+        position: relative;
+            color: white;
+            top: 100px;
+        }
 .prae2 {
     align-self: center;
     width:40%;
