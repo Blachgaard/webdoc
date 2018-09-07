@@ -151,7 +151,12 @@ footer {
     left: 45%;
     width: 9%;
   
-}      
+}   
+        .billeder123 h1 {
+            color: white;
+            position: relative;
+            top: 170px;
+        }
 .prae2 {
     align-self: center;
     width:30%;
